@@ -2,7 +2,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const ImgData = () => {
     return ( 
-        <div className=" absolute top-[20%] mx-[250px] text-white">
+        <div className=" absolute top-[20%] lg:mx-[250px] sm:mx-[50px] text-white">
             <h1 className="text-[60px] font-bold">Creating digital products on a global scale</h1>
 
 

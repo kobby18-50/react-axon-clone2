@@ -278,7 +278,7 @@ const ROI = () => {
                   <figure>
                     <img src={product.img} alt="" />
                   </figure>
-                  <div className="border-b-2 border-black py-3 rounded-lg" />
+                  <div className="divider h-[1px] bg-[#0168ff] "/>
 
                   <div className="pt-3">{product.title}</div>
                   <div>{product.text}</div>
@@ -335,7 +335,7 @@ const ROI = () => {
 
       {/*  */}
 
-      <div className=" lg:ml-[160px] sm:ml-[20px] grid lg:grid-cols-3">
+      <div className=" lg:ml-[160px] sm:ml-[0px] grid lg:grid-cols-3">
         {
           newcards.map((card, index)=> (
             <div key={index} className="card w-[350px] rounded-none hover:shadow-lg hover:duration-500 hover:cursor-pointer p-3 hover:bg-white">

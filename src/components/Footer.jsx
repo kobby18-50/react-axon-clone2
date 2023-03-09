@@ -5,12 +5,13 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-color4">
-        <div className="grid lg:grid-cols-2 lg:mx-[200px] sm:mx-[20px] lg:gap-28 py-20">
+        <div className="grid lg:grid-cols-2 lg:mx-[200px]  lg:gap-28 py-20">
           <div className="mt-10">
-            <h1 className="text-2xl font-bold text-[#0168ff]">
+            <h1 className="text-2xl font-bold text-[#0168ff] sm:ml-[30px] sm:mr-[100px]">
               Looking forward to your message
+            <div className="divider h-[3px] bg-[#0168ff] "/>
             </h1>
-            <div className="border-b-[#0168ff] border-2" />
+            {/* <div className="border-b-[#0168ff] border-2" /> */}
 
             <ul className="list-disc ml-8 text-white my-10">
               <li>
@@ -80,7 +81,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer grid grid-cols-4 p-10 px-[100px] bg-[#000a19] text-white">
+      <div className="footer  p-10 px-[100px] bg-[#000a19] text-white">
         <div>
           <span className="footer-title">Services</span><br />
           <Link clLinkssName="link link-hover">Accelerate Development</Link>
@@ -151,7 +152,7 @@ const Footer = () => {
         </div>
 </div>
 <div className="bg-[#000a19]">
-<div className="divider mt-0 mb-0 "></div>
+<div className="divider mt-0 mb-0 "/>
         <h1 className="text-white pl-[100px]">axoninfosystems.net &copy; Copyright 2023</h1>
 
       <div />
