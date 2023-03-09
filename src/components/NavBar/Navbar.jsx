@@ -21,7 +21,7 @@ const Navbar = () => {
   window.addEventListener('scroll', changeColor)
   return (
     <>
-      <div className={color ? "sm:hidden lg:flex navbar text-white fixed bg-black duration-500 pl-10 p-3" : "sm:hidden lg:flex navbar absolute bg-black text-white p-3"}>
+      <div className={color ? "sm:hidden lg:flex navbar text-white fixed bg-black duration-500 pl-10 p-3" : "sm:hidden lg:flex navbar absolute bg-transparent text-white p-3"}>
         <div className="flex-1">
           
           <Link className="btn btn-ghost normal-case text-xl">AXON</Link>
